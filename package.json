@@ -1,0 +1,31 @@
+{
+  "name": "bencord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "build": "tsc",
+    "fmt": "gts fix",
+    "prepare": "pnpm run build",
+    "pretest": "pnpm run build",
+    "posttest": "pnpm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "esbuild": "^0.17.15",
+    "gts": "^3.1.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "electron": "22"
+  },
+  "engines": {
+    "node": "v19"
+  }
+}

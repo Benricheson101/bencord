@@ -1,0 +1,19 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM"],
+    "baseUrl": ".",
+    "paths": {
+      "bencord": ["lib/index.ts"],
+      "bencord/types": ["lib/types/index.ts"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "lib/**/*.ts"
+  ]
+}
