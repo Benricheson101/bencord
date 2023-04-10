@@ -12,29 +12,29 @@
 //         _toStrings(p[key], into);
 //       }
 //     }
-
+//
 //     return into;
 //   };
-
+//
 //   return _toStrings(p, []).join('\n');
 // };
-
+//
 // const UserSettingsProtoStore = webpackChunkdiscord_app
 //   .push([[Date.now()], {}, e => Object.values(e.c)])
 //   .find(m => m?.exports?.Z?.frecencyWithoutFetchingLatest).exports.Z;
-
+//
 // const protoReflectionSymbol = Object.getOwnPropertySymbols(
 //   UserSettingsProtoStore.settings
 // )[0];
-
+//
 // const settingsReflectionMetadata =
 //   UserSettingsProtoStore.settings[protoReflectionSymbol];
 // const frecencyReflectionMetadata =
 //   UserSettingsProtoStore.frecencyWithoutFetchingLatest[protoReflectionSymbol];
-
+//
 // const settingsProto = new ProtoMessage(settingsReflectionMetadata).flatten();
 // const frecencyProto = new ProtoMessage(frecencyReflectionMetadata).flatten();
-
+//
 // protoToString(settingsProto);
 // protoToString(frecencyProto);
 // ```
