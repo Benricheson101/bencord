@@ -1,4 +1,4 @@
-// uses protobuf-ts's reflection metadata to conver Discord's
+// uses protobuf-ts's reflection metadata to convert Discord's
 // protobufs to .proto message declarations
 //
 // example usage:
