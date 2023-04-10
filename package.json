@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@protobuf-ts/runtime": "^2.8.3",
     "@types/node": "^14.11.2",
     "esbuild": "^0.17.15",
     "gts": "^3.1.1",
